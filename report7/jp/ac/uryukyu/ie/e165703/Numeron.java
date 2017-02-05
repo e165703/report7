@@ -6,17 +6,22 @@ import java.io.InputStreamReader;
  * Created by e165703 on 2017/02/03.
  */
 public class Numeron{
-    int[] player_answer = new int[3];
-    int[] answer;
-    int eat,bite;
-    boolean player_win = false;
-    public Numeron(int[] answer){
-        this.answer = answer;
-    }
+    private int[] player_answer = new int[3];
+    private int[] answer;
+    private int eat,bite;
+    private boolean player_win = false;
+    public Numeron(int[] answer){this.answer = answer;}
+    public boolean isPlayer_win() {return player_win;}
+    public void setPlayer_win(boolean player_win){this.player_win = player_win;}
+    public int getEat(){return eat;}
+    public void setEat(int eat){this.eat = eat;}
+    public int getBite(){return bite;}
+    public void setBite(int bite){this.bite = bite;}
+    public int[] getAnswer(){return answer;}
+    public void setAnswer(int[] answer) {this.answer = answer;}
+    public int[] getPlayer_answer(){return player_answer;}
 
-    public boolean isPlayer_win() {
-        return player_win;
-    }
+    public void setPlayer_answer(int[] player_answer) {this.player_answer = player_answer;}
 
     public void settei(){
         BufferedReader br
