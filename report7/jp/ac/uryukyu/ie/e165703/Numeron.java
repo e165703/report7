@@ -57,6 +57,7 @@ public class Numeron{
         if(eat == 3){
             player_win = true;
         }
+
     }
 
 }

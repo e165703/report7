@@ -1,5 +1,4 @@
 package jp.ac.uryukyu.ie.e165703;
-import java.util.Scanner;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -43,5 +42,7 @@ public class Main {
             System.out.printf("あなたの負け！\n");
             System.out.printf("答えは%d,%d,%dでした",answer[0],answer[1],answer[2]);
         }
+
     }
+
 }

@@ -9,4 +9,5 @@ public class Player extends Numeron{
     public Player(int[] answer){
         super(answer);
     }
+
 }
