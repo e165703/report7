@@ -11,7 +11,7 @@ public class Main {
         int[] answer = new int[3];
         for (int i = 0; i < answer.length; i++) {
             boolean flag = false;
-            answer[i] = (int) (Math.random() * 6 + 1);//randomを用いて答えの設定
+            answer[i] = (int) (Math.random() * 8 + 1);//randomを用いて答えの設定
             do {
                 flag = false;
                 for (int j = i - 1; j >= 0; j--) {//一つ前の数字が同一か判断、そうであれば繰り返す
